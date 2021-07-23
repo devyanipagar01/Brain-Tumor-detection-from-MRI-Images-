@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artificial Intelligence</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Artificial Intelligence</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content" style="margin-top:2em">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-6" >
+        <h2 >Identification of tumer cells using CNN</h2>
+       <br>
+       <style>
+        h4{
+             color: Red;
+             font-size: 500%
+             font-size: Bold
+             font-family:Times New Roman
+        }
+</style>
+			  
+  <h4>Unfortunately your report is positive....<h4>
+  <h5></h5>
+				<img src="data:image/jpeg;base64,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" class="img-rounded" alt="umm" width="400" height="500">       
+			</div>
+			<div class="col-sm-6 bd">
+				<div>
+					<h6 style="font:Bold">TOP 15 Hospitals for Brain Tumor Surgery in India</h6>
+					<ol>
+					 <li>Fortis Hospital Mumbai, New Delhi, Chennai, Bangalore India</li>
+					 <li>Artemis Hospital, New Delhi India</li>
+					 <li>Global Hospital, Mumbai, Bangalore, Chennai, Hyderabad, India</li>
+					 <li>Bombay Hospital Mumbai India</li>
+					 <li>Saifee Hospital Mumbai India</li>
+					 <li>Wockhardt Hospital Mumbai India</li>
+					 <li>Fortis Memorial Research Institute, Gurgoan, India</li>
+					 <li>Jaypee Hospital, New Delhi India</li>
+					 <li>Indraprashta Apollo Hospital, New Delhi India</li>
+					 <li>Max Super Specialty Hospital New Delhi India</li>
+					 <li>Primus Super Specialty Hospital New Delhi India</li>
+					 <li>Shalby Hospital, Ahmedabad, India</li>
+					 <li>BLK Super Specialty Hospital, New Delhi India</li>
+					 <li>Rockland Hospital, New Delhi India</li>
+					 <li>Paras Hospitals, New Delhi India</li>
+					 
+					 
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>    
+</footer>
+
+</html>
